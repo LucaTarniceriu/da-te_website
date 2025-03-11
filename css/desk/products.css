@@ -1,0 +1,66 @@
+content{
+margin-top: 4%;
+display:flex;
+font-size: 1.3vw;
+line-height: 2vw;
+}
+
+.left{
+text-align: center;
+margin-left: 10%;
+margin-right: 15%;
+flex-grow: 1;
+flex: 45%;
+font-family: "Poppins";
+}
+
+.right{
+text-align: center;
+margin-left: 0%;
+margin-right: 5%;
+flex-grow: 1;
+flex: 55%;
+}
+
+.imgClass{
+border: 2px solid black;
+margin-top: 10%;
+margin: 1%;
+position: relative;
+width: 30%;
+transition: transform 0.25s ease;
+}
+
+.imgClass:hover{
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  z-index: 10;
+}
+
+h2{
+text-align: left;
+position: relative;
+}
+
+ul{
+  margin-left: -4.5vw;
+  text-align: left; 
+  width: 110%; 
+}
+
+
+.contact{
+  color: var(--link);
+  font-style: normal;
+  text-align: left;
+  /* text-decoration: none; */
+}
+
+.contactImg{
+  border: 2px solid black;
+  margin-top: 10%;
+  margin: 1%;
+  top: 15%;
+  position: relative;
+  width: 100%;
+}

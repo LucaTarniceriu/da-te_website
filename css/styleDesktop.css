@@ -1,0 +1,32 @@
+html{
+    background-color: #fffcf2;
+}
+
+#top1{
+    left:10%;
+    position: relative;
+    text-align: center;
+}
+
+#top2{
+    left:10%;
+    position:relative;
+    text-align: center;
+}
+
+#top3{
+    left:10%;
+    position:relative;
+    text-align: center;
+}
+
+#top4{
+    left:10%;
+    position:relative;
+    text-align: center;
+}
+
+#topnav{
+    left:100;
+    position: block;
+}

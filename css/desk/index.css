@@ -1,0 +1,70 @@
+content{
+  margin-top: 4%;
+  display:flex;
+  font-size: 1.20vw;
+}
+    
+.left{
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 15%;
+  flex-grow: 1;
+  flex: 45%;
+  font-family: "Poppins";
+}
+
+.right{
+  text-align: center;
+  margin-left: 0%;
+  margin-right: 5%;
+  flex-grow: 1;
+  flex: 55%
+}
+
+.imgClass{
+  border: 2px solid black;
+  margin-top: 10%;
+  margin: 1%;
+  position: relative;
+  width: 30%;
+  transition: transform 0.25s ease;
+}
+
+.imgClass:hover{
+  -webkit-transform: scale(2);
+  transform: scale(2);
+  z-index: 10;
+}
+
+h2{
+  text-align: left;
+  position: relative;
+}
+
+#topBar{
+  background-color: #feec04;
+  display: table-cell;
+  height: 4vh;
+  position: relative;
+  vertical-align: middle;
+  width:100vw;
+  top: 5%;
+}
+
+#tel{
+  color: black;
+  float: left;
+  margin-left: 4%;
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins";
+}
+
+#mail{
+  color: black;
+  float:right;
+  margin-right: 4%;
+  position: relative;
+  text-decoration: none;
+  font-family: "Poppins";
+}
